@@ -51,3 +51,19 @@ answer.addEventListener("input", () => {
   const answerInput = answer.value.length;
   answerCount.textContent = 150 - answerInput + " characters left";
 });
+
+// // Allgemeine Funktion zur Aktualisierung der verbleibenden Zeichen
+// const updateCharacterCount = (textarea, countDisplay) => {
+//   const maxLength = textarea.maxLength; // Maximale Länge des Textareas
+//   const currentLength = textarea.value.length; // Aktuelle Länge des Inhalts
+//   const remaining = maxLength - currentLength; // Berechnung der verbleibenden Zeichen
+//   countDisplay.textContent = `${remaining} characters left`; // Anzeige der verbleibenden Zeichen
+// };
+
+// // Initiale Anzeige der verbleibenden Zeichen
+// updateCharacterCount(question, questionCount);
+// updateCharacterCount(answer, answerCount);
+
+// // Event-Listener für Eingaben in den Textareas
+// question.addEventListener('input', () => updateCharacterCount(question, questionCount));
+// answer.addEventListener('input', () => updateCharacterCount(answer, answerCount));
