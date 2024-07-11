@@ -12,8 +12,14 @@
   justify-content: space-around;
 }
 
+.profile-card__name {
+  color: var(--secondary-light);
+  font-size: 1.8rem;
+}
+
 .profile__card-img {
-  border-radius: 50%;
+  border-radius: 45%;
+  margin-right: 20px;
 }
 
 .profile__settings {
@@ -68,4 +74,28 @@
 .profile__settings-darkmode-input:checked
   + .profile__settings-darkmode-label:after {
   right: 5px;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--secondary);
+}
+
+.about-me-facts {
+  font-size: 1.2rem;
+}
+
+.fact {
+  font-weight: bold;
+}
+
+.sercan {
+  color: var(--secondary);
+}
+
+.aboutme {
+  color: var(--secondary);
+  font-size: xx-large;
 }
