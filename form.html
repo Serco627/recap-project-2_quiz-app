@@ -16,20 +16,28 @@
     <header class="header">
       <h1 class="header__title">Form</h1>
     </header>
-    <main> <form class="form" data-js="formular">
-        <h2>Your Question:</h2>
-        <textarea 
-        name="question"
+    <main> 
+      <form class="form" data-js="formular">
+        <label for="question">Your Question:</label>
+        <textarea name="question"
         data-js="question"
-        ></textarea>
-        <h2>Your Answer:</h2>
-        <textarea name="answer" data-js="answer"></textarea>
-        <h2>Your Tag:</h2>
+        maxlength="150"
+        id ="question"></textarea>
+      <div class="character-count" data-js="question-count">150 characters left</div>
+      <label for="answer">Your Answer</label>
+      <textarea
+        name="answer" 
+        data-js="answer"
+        maxlength="150"
+        id="answer"
+      ></textarea>
+      <div class="character-count" data-js="answer-count">150 characters left</div>        <label for="tag">Your Tag:</label>
         <input 
         type="text" 
         class="areaSmall"
         name="tag"
         data-js="tag"
+        id="tag"
         >
     </input>
     <button type="submit" class="submit">Submit</button>

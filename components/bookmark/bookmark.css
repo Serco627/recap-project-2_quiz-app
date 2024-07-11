@@ -12,7 +12,7 @@
 }
 
 .bookmark--active {
-  color: var(--black);
+  color: red;
 }
 
 .bookmark__icon {

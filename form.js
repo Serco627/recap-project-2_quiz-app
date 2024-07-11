@@ -36,3 +36,18 @@ form.addEventListener("submit", (event) => {
 
   form.append(newCard);
 });
+
+const questionCount = document.querySelector("[data-js='question-count']");
+console.log(questionCount);
+const answerCount = document.querySelector("[data-js='answer-count']");
+console.log(answerCount);
+
+question.addEventListener("input", () => {
+  const questionInput = question.value.length;
+  questionCount.textContent = 150 - questionInput + " characters left";
+});
+
+answer.addEventListener("input", () => {
+  const answerInput = answer.value.length;
+  answerCount.textContent = 150 - answerInput + " characters left";
+});
