@@ -10,8 +10,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <script src="./profile.js" defer></script>
   </head>
-  <body>
+  <body data-js="body">
     <header class="header">
       <h1 class="header__title">Profile</h1>
     </header>
@@ -55,24 +56,22 @@
       <ul class="counter-list">
         <li class="counter-list__item">
           <i class="fas fa-thumbs-up"></i>
-          <span>12</span>
+          <span>627</span>
         </li>
         <li class="counter-list__item">
           <i class="fas fa-bookmark"></i>
-          <span>4</span>
+          <span>12</span>
         </li>
       </ul>
-      <h2 id="title">Settings</h2>
-      <form class="profile__settings" aria-labelledby="title">
-        <input
-          type="checkbox"
-          id="switch-darkmode"
-          class="profile__settings-darkmode-input"
-        />
-        <label for="switch-darkmode" class="profile__settings-darkmode-label">
-          Toggle Darkmode
-        </label>
-      </form>
+
+      <input
+        type="checkbox"
+        id="switch-darkmode"
+        class="profile__settings-darkmode-input"
+      />
+      <label for="switch-darkmode" class="profile__settings-darkmode-label">
+        Toggle Darkmode
+      </label>
     </main>
 
     <nav class="navigation">

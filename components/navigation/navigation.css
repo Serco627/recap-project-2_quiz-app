@@ -37,3 +37,7 @@
 .navigation__link svg {
   fill: currentcolor;
 }
+
+a:visited {
+  color: black;
+}

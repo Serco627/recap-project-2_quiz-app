@@ -99,3 +99,8 @@
   color: var(--secondary);
   font-size: xx-large;
 }
+
+.counter-list__item {
+  background-color: var(--secondary-light);
+  color: var(--secondary);
+}
