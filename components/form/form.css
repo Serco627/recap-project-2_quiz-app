@@ -1,0 +1,27 @@
+textarea {
+  width: 400px;
+  height: 200px;
+}
+
+.areaSmall {
+  height: 40px;
+  width: 400px;
+}
+
+.submit {
+  padding: 10px;
+  font-size: large;
+  width: 100px;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20vw;
+  margin-left: 30vw;
+}

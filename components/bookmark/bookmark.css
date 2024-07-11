@@ -19,3 +19,7 @@
   fill: currentcolor;
   width: 2em;
 }
+
+.bookmark-checked {
+  color: red;
+}
