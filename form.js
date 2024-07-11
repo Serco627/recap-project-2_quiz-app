@@ -14,9 +14,9 @@ form.addEventListener("submit", (event) => {
   //   console.log(data);
   const newCard = document.createElement("div");
   newCard.classList.add("question-card");
-  const questionInput = question.value;
-  const answerInput = answer.value;
-  const tagInput = tag.value;
+  const questionInput = data.question;
+  const answerInput = data.answer;
+  const tagInput = data.tag;
   newCard.innerHTML = `
   
   <ul class="card-list">

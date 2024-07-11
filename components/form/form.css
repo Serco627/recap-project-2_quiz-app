@@ -12,10 +12,17 @@ textarea {
   padding: 10px;
   font-size: large;
   width: 100px;
+  margin-bottom: 50px;
+  border-radius: 40px;
+  background-color: var(--secondary);
+  color: white;
+  box-shadow: 0.5px 0.5px 0.5px 1px var(--secondary-light);
 }
 
 .submit:hover {
   cursor: pointer;
+  background-color: var(--secondary-light);
+  color: var(--secondary);
 }
 
 form {
@@ -27,7 +34,7 @@ form {
   gap: 10px;
 }
 
-label {
+form label {
   font-size: 1.9rem;
   color: var(--secondary-light);
   font-weight: bold;

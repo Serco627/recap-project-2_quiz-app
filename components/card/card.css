@@ -17,12 +17,15 @@
   margin: 0 auto 2rem auto;
   padding: 1rem;
   border-radius: 40px;
-  box-shadow: 1px 1px 10px 2px var(--secondary-light);
+  background-color: var(--secondary);
+  color: white;
+  box-shadow: 0.5px 0.5px 0.5px 1px var(--secondary-light);
 }
 
 .card__button-answer:hover {
-  opacity: 0.75;
   cursor: pointer;
+  background-color: var(--secondary-light);
+  color: var(--secondary);
 }
 
 .card__answer {
